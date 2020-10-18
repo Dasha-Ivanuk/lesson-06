@@ -1,0 +1,91 @@
+body{
+    background: #0098DF;
+    border-color: #2d6eea;
+    color: white;
+}
+.weather li{
+    border: 2px solid #ffffff;
+    height: 100px;
+    width: 25%;
+    font-size: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 15px;
+}
+.weather{
+    width: 50%;
+    font-size: 0px;
+    border: 2px solid #ffffff;
+    background: #fff;
+}
+.weather .double{
+    width: 50%;
+    background: #3399cc;
+}
+.weather .quatro{
+    width: 100%;
+    background: #a75df3;
+}
+.blue{
+    background: #3399cc;
+}
+.turquoise{
+    background: #33cccc;
+}
+.violet{
+    background: #996699;
+}
+.red{
+    background: #c24747;
+}
+#orange{
+    background: #e2674a;
+}
+#yellow{
+    background: #ffcc66;
+}
+.soft-green{
+    background: #99cc99;
+}
+.grey{
+    background: #669999;
+}
+#pink{
+    background: #cc6699;
+}
+.dark-green{
+    background: #339966;
+}
+.weather li:hover{
+  opacity: 0.5;
+}
+#1{
+ opacity: 0.7;
+}
+section{
+    margin-left: 25%;
+}
+h1, h3{
+    margin-left: 25%;
+}
+span{
+    opacity: 0.7;
+    text-align: center;
+}
+.weather:hover li{
+ opacity: 0.7;
+}
+.weather li:hover{
+    opacity: 1;
+}
+.weather li:not(.quatro){
+    color: #ffff;
+
+}
+
+
+
+
+
+
